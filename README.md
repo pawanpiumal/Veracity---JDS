@@ -2,7 +2,7 @@
 
 ## Cleaned CSV file
 
-The cleaned CSV file is location at `Python` folder. The file name is `file1-7831.csv`.
+The cleaned CSV file is location at `Python` folder. The file name is `file1-7830.csv`.
 
 ## Running the Python Notebook
 
