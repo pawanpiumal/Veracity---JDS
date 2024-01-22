@@ -6,12 +6,20 @@ import axios from 'axios'
 
 const columns = [
     {
+        name:'Index',
+        selector:row=>parseInt(row.index),
+        sortable:true,
+        width: "7rem"
+    },
+    {
         name: 'Document Title',
         selector: row => row.document_title,
+        sortable:true
     },
     {
         name: 'Question Text',
-        selector: row => row.question_text && row.question_text[0].toUpperCase() + row.question_text.slice(1)+' ?'
+        selector: row => row.question_text && row.question_text[0].toUpperCase() + row.question_text.slice(1)+' ?',
+        sortable:true
     },
 ];
 const ExpandedComponent = ({ data }) => <Expand data={data} />;
