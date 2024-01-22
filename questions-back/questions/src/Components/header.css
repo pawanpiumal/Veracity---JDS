@@ -1,0 +1,22 @@
+#header-nav-bar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.navbar-title{
+    color: #10142a;
+    margin-top: 0px;
+    padding: 2%;
+    margin-right: 30px;
+    font-family: 'OCR A','Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.navbar-logo{
+    margin-top: 0px;
+    padding: 2%;
+}
+.nav-link{
+    text-decoration: none;
+    color: gold;
+}
